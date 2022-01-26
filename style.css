@@ -1,0 +1,169 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 250px;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+nav ul,
+nav li{
+    list-style: none;
+    margin: 15px;
+    padding: 15px;
+}
+nav ul{
+    display: flex;
+}
+nav a {
+    padding-bottom: none;
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}
+nav .active a,
+nav a:hover{
+    border-bottom: 2px solid white;
+}
+#banner_principal{
+   justify-content: center;
+   background-image: url('img/timelab-pro-yx20mpDyr2I-unsplash.jpg');
+   background-position: center;
+   background-size: cover;
+   height: 670px;
+}
+
+.container_column{
+    flex-direction: column;
+    padding: 25px;
+}
+.banner_healine{
+    margin-top: 30px;
+    margin-left: 140px;
+    padding: 0px;
+    flex: 2;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .banner_healine h1 {
+    color: #ffffff;
+    font-size:70px ;
+    text-shadow: 0px 1px 0px #5e5e5e;
+    margin: 0px;
+    padding: 0px;
+    max-width: 350px;
+    text-transform: uppercase;
+    font-family: Halyard Display;
+    line-height: 80%;
+ 
+ }
+ .barra{
+     display: flex;
+     justify-items: center;
+     align-items: center;
+ }
+ .bar01{
+     display: flex;
+     margin-top: 0px;
+     margin-left: 2px;
+     width: 25px;
+     height: 25px;
+     background-color: white;
+    
+    
+ }
+ .banner_healine h2 {
+    align-content: center;
+    color: #ffffff;
+    font-size:35px ;
+    text-shadow: 0px 1px 0px #5e5e5e;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px;
+    max-width: 350px;
+    font-family: Halyard Display;
+    text-transform: uppercase;
+    
+ }.bar02{
+    display: flex;
+    margin-left: 18px;
+    width: 80px;
+    height: 25px;
+    background-color: white;
+   
+   
+}
+.banner_headline02{
+    display: flex;
+    flex-direction: column;
+    
+    align-content: flex-start;
+}
+.banner_headline02 h2{
+    max-width: 500px;
+    flex: 1;
+    font-size: 28px;
+    text-transform: capitalize;
+    padding: 0px;
+    margin: 0px;
+}
+.banner_headline02 h3{
+    margin-top: 15px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    max-width: 400px;
+    padding: 0px;
+   
+}
+
+.imagens{
+    display: flex;
+    width: 450px;
+    height: 600px;
+   
+}
+.imagens ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
